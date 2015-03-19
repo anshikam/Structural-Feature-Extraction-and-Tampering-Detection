@@ -1,0 +1,40 @@
+1. preprocess
+
+   im=preprocess(im); 
+   //image is rgb image 
+
+2. bilinear interpolation
+
+   im=bilinearinterpolation(im,R,C);
+   //im is grayscale image
+   //R*C is new size of image im desired
+
+3. correlation
+
+   c=correlation(refpat,im);
+   //refpat is reference pattern
+   //image im and reference pattern should be of same size
+
+4. glpf1_k(Gaussian 7*7 lpf)
+
+   im_blur=glpf1_k(im,no);
+   //im is image to blur 'no' no. of times
+
+  similarly for glpf2_k(Gaussian 3*3 lpf)
+  and lpf3_k (averaging filter)
+
+7. algo
+
+   [correl]=algo(refpat,I)
+
+   //size of image I is a multiple of refpat size
+
+   //finds correlation for entire image considering non overlapping blocks
+
+8. test
+ 
+   [correl]=test(refpat,I)
+
+   //size of image I is a multiple of refpat size
+
+   //finds correlation for entire image considering overlapping blocks

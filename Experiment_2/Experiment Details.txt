@@ -1,0 +1,12 @@
+1. 10 images of size 49*49
+2. Reference patterns
+   a.image 1
+   b.image 1 (gaussian lpf 1 time)
+   c.image 1 (gaussian lpf 2 time)
+   d.image 1 (gaussian lpf 5 time)
+
+3. Find correlation values using non overlapping blocks of image using algo.m
+
+---
+
+4. also tried with image 7 as ref. pat.

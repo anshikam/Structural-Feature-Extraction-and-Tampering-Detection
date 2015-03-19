@@ -1,0 +1,15 @@
+a='refpat.xls';
+refpat(:,:,1)=xlsread(a,'im7');
+>> refpat(:,:,2)=xlsread(a,'im7_1');
+>> refpat(:,:,3)=xlsread(a,'im7_2');
+>> refpat(:,:,4)=xlsread(a,'im7_3');
+>> refpat(:,:,5)=xlsread(a,'im7_4');
+>> refpat(:,:,6)=xlsread(a,'im7_5');
+
+
+a='refpat1.xls';
+>> refpat1(:,:,1)=xlsread(a,'im1');
+refpat1(:,:,2)=xlsread(a,'im1_mf1');
+refpat1(:,:,3)=xlsread(a,'im1_mf2');
+refpat1(:,:,4)=xlsread(a,'im1_mf5');
+refpat1(:,:,5)=xlsread(a,'im1_mf10');

@@ -1,0 +1,20 @@
+Part I
+
+1. 4 kinds of reference patterns in refpat_49.xls(49*49)
+	a. image
+	b. array with values [0,1]
+	c. array with values {0,1}
+	d. array with values {0,1}
+2. Synthetic Image Database -- SyntheticImages.xls (49*49)
+   Natural Image Database -- NaturalImages.xls     (49*49)
+   Natural Image Distorted Database -- NaturalImages_d.xls   (49*49)
+
+3. a) correlation of synthetic images and their blurred versions with the reference patterns
+   b) correlation of natural images,their blurred versions and distortions with the reference patterns
+
+Part II
+
+1. 300*300 images and distorted version in folder Images_300.
+2. Same reference patterns as above but size 50*50.
+3. Run test.m on the images and their distorted and blurred versions.
+  

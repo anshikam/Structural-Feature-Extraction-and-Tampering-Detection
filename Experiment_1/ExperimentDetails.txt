@@ -1,0 +1,27 @@
+1. Take original image, resize to 50*50, using imresize function of MATLAB.
+
+2.. Make another image which is low pass filtered(use fft/gaussian) and a different image altogether (glpf1_k(image,1))
+
+3. Make a program that blurs a random matrix 5 times and 10 times ---  glpf1_k()
+
+---creates reference patterns
+
+4. In program preprocess ---
+   -- rgb2ycbcr
+   -- extract y
+
+5. In program correlation
+   -- find std. deviation of reference pattern with I
+   -- find covariance
+   -- find correlation
+
+Images.mat contains 10 images(first load then,for eg. for 1st  Images(:,:,1))
+
+Similarly FiltImages
+
+In refpat.mat
+refpat(:,:,1)=Random pattern of [0 1];
+refpat(:,:,2)=Random pattern with glpf_1(,1)
+refpat(:,:,3)=Random pattern with glpf_1(,2)
+refpat(:,:,4)=Random pattern with glpf_1(,5)
+refpat(:,:,5)=Random pattern with glpf_1(,10)

@@ -1,0 +1,5 @@
+refpat1(:,:,1)=xlsread('refpat1.xls','1');
+refpat1(:,:,2)=xlsread('refpat1.xls','1_mf10');
+refpat1(:,:,3)=xlsread('refpat1.xls','2');
+refpat1(:,:,4)=xlsread('refpat1.xls','3');
+save('refpat1.mat','refpat1');

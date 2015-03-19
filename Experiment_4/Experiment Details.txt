@@ -1,0 +1,9 @@
+1. 3 kinds of reference patterns in refpat.xls(49*49)
+	a. image 
+	b. array with values {0,1} in sequence 
+	c. array with values {15,240} in sequence 
+
+2. Synthetic Image Database -- SyntheticImages.xls (49*49)
+   
+3. correlation of synthetic images and their blurred versions with the reference patterns
+   

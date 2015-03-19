@@ -1,0 +1,15 @@
+1. 120 images of size 49*49
+2. Reference patterns
+   a.image 1
+   b.image 1 (median filtered 1 time)
+   c.image 2
+   d.image3
+
+3. For 25 images, test for distortion also
+
+
+---
+
+correlation
+pavan_daxini@daiict.ac.in
+pavandaxini17@gmail.com

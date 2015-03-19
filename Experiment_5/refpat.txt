@@ -1,0 +1,27 @@
+refpat(:,:,1)=xlsread('refpat_49.xls','2');
+>> refpat(:,:,2)=xlsread('refpat_49.xls','r1');
+>> refpat(:,:,3)=xlsread('refpat_49.xls','rn1');
+>> refpat(:,:,4)=xlsread('refpat_49.xls','rn2');
+
+refpat1(:,:,1)=xlsread('refpat_50.xls','2');
+refpat1(:,:,2)=xlsread('refpat_50.xls','r1');
+refpat1(:,:,3)=xlsread('refpat_50.xls','rn1');
+refpat1(:,:,4)=xlsread('refpat_50.xls','rn2');
+save('refpat_50.mat','refpat1');
+
+
+NaturalImages_d(:,:,1)=xlsread(a,'1');
+>> NaturalImages_d(:,:,2)=xlsread(a,'2');
+>> NaturalImages_d(:,:,3)=xlsread(a,'10');
+>> NaturalImages_d(:,:,4)=xlsread(a,'14');
+>> NaturalImages_d(:,:,5)=xlsread(a,'33');
+>> NaturalImages_d(:,:,6)=xlsread(a,'34');
+>> NaturalImages_d(:,:,7)=xlsread(a,'39');
+>> NaturalImages_d(:,:,8)=xlsread(a,'40');
+>> NaturalImages_d(:,:,9)=xlsread(a,'41');
+>> NaturalImages_d(:,:,10)=xlsread(a,'42');
+>> NaturalImages_d(:,:,11)=xlsread(a,'48');
+>> NaturalImages_d(:,:,12)=xlsread(a,'51');
+>> NaturalImages_d(:,:,13)=xlsread(a,'56');
+>> NaturalImages_d(:,:,14)=xlsread(a,'72');
+>> NaturalImages_d(:,:,15)=xlsread(a,'82');
